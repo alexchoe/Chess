@@ -100,7 +100,7 @@ public class ChessGUI extends JFrame implements ActionListener {
                     buttons[i][j].setBackground(maroon);
                 }
                 if(i == 1){
-                    ImageIcon icon = new ImageIcon("C:\\Users\\yejen\\Documents\\NetBeansProjects\\Chess\\src\\Bpawn.PNG");
+                    ImageIcon icon = new ImageIcon(ChessGUI.class.getResource("Bpawn.png"));
                     Image image = icon.getImage();
                     Image newimg = image.getScaledInstance(40, 40, java.awt.Image.SCALE_SMOOTH);  
                     icon = new ImageIcon(newimg);
@@ -108,7 +108,7 @@ public class ChessGUI extends JFrame implements ActionListener {
                     panel.add(buttons[i][j]);                    
                 }
                 else if(i == 0 && (j == 0 || j == 7)){
-                    ImageIcon icon = new ImageIcon("C:\\Users\\yejen\\Documents\\NetBeansProjects\\Chess\\src\\Brook.PNG");
+                    ImageIcon icon = new ImageIcon(ChessGUI.class.getResource("Brook.png"));
                     Image image = icon.getImage();
                     Image newimg = image.getScaledInstance(40, 40, java.awt.Image.SCALE_SMOOTH);  
                     icon = new ImageIcon(newimg);
@@ -116,7 +116,7 @@ public class ChessGUI extends JFrame implements ActionListener {
                     panel.add(buttons[i][j]);                    
                 }
                 else if(i == 0 && (j == 1 || j == 6)){
-                    ImageIcon icon = new ImageIcon("C:\\Users\\yejen\\Documents\\NetBeansProjects\\Chess\\src\\Bbishop.PNG");
+                    ImageIcon icon = new ImageIcon(ChessGUI.class.getResource("Bbishop.png"));
                     Image image = icon.getImage();
                     Image newimg = image.getScaledInstance(40, 40, java.awt.Image.SCALE_SMOOTH);  
                     icon = new ImageIcon(newimg);
@@ -124,7 +124,7 @@ public class ChessGUI extends JFrame implements ActionListener {
                     panel.add(buttons[i][j]);                    
                 }
                 else if(i == 0 && (j == 2 || j == 5)){
-                    ImageIcon icon = new ImageIcon("C:\\Users\\yejen\\Documents\\NetBeansProjects\\Chess\\src\\Bknight.PNG");
+                    ImageIcon icon = new ImageIcon(ChessGUI.class.getResource("Bknight.png"));
                     Image image = icon.getImage();
                     Image newimg = image.getScaledInstance(40, 40, java.awt.Image.SCALE_SMOOTH);  
                     icon = new ImageIcon(newimg);
@@ -132,7 +132,7 @@ public class ChessGUI extends JFrame implements ActionListener {
                     panel.add(buttons[i][j]);                    
                 }
                 else if(i == 0 && j==3){
-                    ImageIcon icon = new ImageIcon("C:\\Users\\yejen\\Documents\\NetBeansProjects\\Chess\\src\\Bqueen.PNG");
+                    ImageIcon icon = new ImageIcon(ChessGUI.class.getResource("Bqueen.png"));
                     Image image = icon.getImage();
                     Image newimg = image.getScaledInstance(40, 40, java.awt.Image.SCALE_SMOOTH);  
                     icon = new ImageIcon(newimg);
@@ -140,7 +140,7 @@ public class ChessGUI extends JFrame implements ActionListener {
                     panel.add(buttons[i][j]);                    
                 }
                 else if(i == 0 && j==4){
-                    ImageIcon icon = new ImageIcon("C:\\Users\\yejen\\Documents\\NetBeansProjects\\Chess\\src\\Bking.PNG");
+                    ImageIcon icon = new ImageIcon(ChessGUI.class.getResource("Bking.png"));
                     Image image = icon.getImage();
                     Image newimg = image.getScaledInstance(40, 40, java.awt.Image.SCALE_SMOOTH);  
                     icon = new ImageIcon(newimg);
@@ -148,7 +148,7 @@ public class ChessGUI extends JFrame implements ActionListener {
                     panel.add(buttons[i][j]);                    
                 }
                 else if(i == 6){
-                    ImageIcon icon = new ImageIcon("C:\\Users\\yejen\\Documents\\NetBeansProjects\\Chess\\src\\Wpawn.PNG");
+                    ImageIcon icon = new ImageIcon(ChessGUI.class.getResource("Wpawn.png"));
                     Image image = icon.getImage();
                     Image newimg = image.getScaledInstance(40, 40, java.awt.Image.SCALE_SMOOTH);  
                     icon = new ImageIcon(newimg);
@@ -156,7 +156,7 @@ public class ChessGUI extends JFrame implements ActionListener {
                     panel.add(buttons[i][j]);                    
                 }
                 else if(i == 7 && (j == 0 || j == 7)){
-                    ImageIcon icon = new ImageIcon("C:\\Users\\yejen\\Documents\\NetBeansProjects\\Chess\\src\\Wrook.PNG");
+                    ImageIcon icon = new ImageIcon(ChessGUI.class.getResource("Wrook.png"));
                     Image image = icon.getImage();
                     Image newimg = image.getScaledInstance(40, 40, java.awt.Image.SCALE_SMOOTH);  
                     icon = new ImageIcon(newimg);
@@ -164,7 +164,7 @@ public class ChessGUI extends JFrame implements ActionListener {
                     panel.add(buttons[i][j]);                    
                 }
                 else if(i == 7 && (j == 1 || j == 6)){
-                    ImageIcon icon = new ImageIcon("C:\\Users\\yejen\\Documents\\NetBeansProjects\\Chess\\src\\Wbishop.PNG");
+                    ImageIcon icon = new ImageIcon(ChessGUI.class.getResource("Wbishop.png"));
                     Image image = icon.getImage();
                     Image newimg = image.getScaledInstance(40, 40, java.awt.Image.SCALE_SMOOTH);  
                     icon = new ImageIcon(newimg);
@@ -172,7 +172,7 @@ public class ChessGUI extends JFrame implements ActionListener {
                     panel.add(buttons[i][j]);                    
                 }
                 else if(i == 7 && (j == 2 || j == 5)){
-                    ImageIcon icon = new ImageIcon("C:\\Users\\yejen\\Documents\\NetBeansProjects\\Chess\\src\\Wknight.PNG");
+                    ImageIcon icon = new ImageIcon(ChessGUI.class.getResource("Wknight.png"));
                     Image image = icon.getImage();
                     Image newimg = image.getScaledInstance(40, 40, java.awt.Image.SCALE_SMOOTH);  
                     icon = new ImageIcon(newimg);
@@ -180,7 +180,7 @@ public class ChessGUI extends JFrame implements ActionListener {
                     panel.add(buttons[i][j]);                    
                 }
                 else if(i == 7 && j == 3){
-                    ImageIcon icon = new ImageIcon("C:\\Users\\yejen\\Documents\\NetBeansProjects\\Chess\\src\\Wking.PNG");
+                    ImageIcon icon = new ImageIcon(ChessGUI.class.getResource("Wking.png"));
                     Image image = icon.getImage();
                     Image newimg = image.getScaledInstance(40, 40, java.awt.Image.SCALE_SMOOTH);  
                     icon = new ImageIcon(newimg);
@@ -188,7 +188,7 @@ public class ChessGUI extends JFrame implements ActionListener {
                     panel.add(buttons[i][j]);                    
                 }
                 else if(i == 7 && j == 4){
-                    ImageIcon icon = new ImageIcon("C:\\Users\\yejen\\Documents\\NetBeansProjects\\Chess\\src\\Wqueen.PNG");
+                    ImageIcon icon = new ImageIcon(ChessGUI.class.getResource("Wqueen.png"));
                     Image image = icon.getImage();
                     Image newimg = image.getScaledInstance(40, 40, java.awt.Image.SCALE_SMOOTH);  
                     icon = new ImageIcon(newimg);
@@ -330,40 +330,40 @@ public class ChessGUI extends JFrame implements ActionListener {
     
     public String getIcon(Piece piece){
         if(piece.getName()=="pawn" && piece.getIsWhite()==true){
-            return "C:\\Users\\yejen\\Documents\\NetBeansProjects\\Chess\\src\\Wpawn.PNG";
+            return ChessGUI.class.getResource("Wpawn.png").toString();
         }
         else if(piece.getName()=="pawn" && piece.getIsWhite()==false){
-            return "C:\\Users\\yejen\\Documents\\NetBeansProjects\\Chess\\src\\Bpawn.PNG";
+            return ChessGUI.class.getResource("Bpawn.png").toString();
         }
         else if(piece.getName()=="rook" && piece.getIsWhite()==true){
-            return "C:\\Users\\yejen\\Documents\\NetBeansProjects\\Chess\\src\\Wrook.PNG";
+            return ChessGUI.class.getResource("Wrook.png").toString();
         }
         else if(piece.getName()=="rook" && piece.getIsWhite()==false){
-            return "C:\\Users\\yejen\\Documents\\NetBeansProjects\\Chess\\src\\Brook.PNG";
+            return ChessGUI.class.getResource("Brook.png").toString();
         }
         else if(piece.getName()=="bishop" && piece.getIsWhite()==true){
-            return "C:\\Users\\yejen\\Documents\\NetBeansProjects\\Chess\\src\\Wbishop.PNG";
+            return ChessGUI.class.getResource("Wbishop.png").toString();
         }
         else if(piece.getName()=="bishop" && piece.getIsWhite()==false){
-            return "C:\\Users\\yejen\\Documents\\NetBeansProjects\\Chess\\src\\Bbishop.PNG";
+            return ChessGUI.class.getResource("Bbishop.png").toString();
         }
         else if(piece.getName()=="knight" && piece.getIsWhite()==true){
-            return "C:\\Users\\yejen\\Documents\\NetBeansProjects\\Chess\\src\\Wknight.PNG";
+            return ChessGUI.class.getResource("Wknight.png").toString();
         }
         else if(piece.getName()=="knight" && piece.getIsWhite()==false){
-            return "C:\\Users\\yejen\\Documents\\NetBeansProjects\\Chess\\src\\Bknight.PNG";
+            return ChessGUI.class.getResource("Bknight.png").toString();
         }
         else if(piece.getName()=="king" && piece.getIsWhite()==true){
-            return "C:\\Users\\yejen\\Documents\\NetBeansProjects\\Chess\\src\\Wking.PNG";
+            return ChessGUI.class.getResource("Wking.png").toString();
         }
         else if(piece.getName()=="king" && piece.getIsWhite()==false){
-            return "C:\\Users\\yejen\\Documents\\NetBeansProjects\\Chess\\src\\Bking.PNG";
+            return ChessGUI.class.getResource("Bking.png").toString();
         }
         else if(piece.getName()=="queen" && piece.getIsWhite()==true){
-            return "C:\\Users\\yejen\\Documents\\NetBeansProjects\\Chess\\src\\Wqueen.PNG";
+            return ChessGUI.class.getResource("Wqueen.png").toString();
         }
         else if(piece.getName()=="queen" && piece.getIsWhite()==false){
-            return "C:\\Users\\yejen\\Documents\\NetBeansProjects\\Chess\\src\\Bqueen.PNG";
+            return ChessGUI.class.getResource("Bqueen.png").toString();
         }
         else{
             return"";
